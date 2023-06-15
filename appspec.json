@@ -1,0 +1,72 @@
+{
+  "settings": [
+    {
+      "id": "risky_move",
+      "name": "Risky Move",
+      "description": "An app to understand the movement of animals around linear infrastructures such as roads, and rails which hinders smooth movement and puts animals in vulnerable situations, which have led to unfortunate deaths and collisions.",
+      "defaultValue": false,
+      "type": "String"
+    },
+	],
+  "dependencies": {
+    "R": [
+      {
+        "name": "move"
+      },
+	  {
+        "name": "sf"
+      },
+	  {
+        "name": "osmdata"
+      },
+	  {
+        "name": "geosphere"
+      },
+	  {
+        "name": "leaflet"
+      },
+      {
+        "name": "ggplot2"
+      },
+      {
+        "name": "library(rgdal)"
+      },
+     ]
+  },
+  "createsArtifacts": true,
+  "license": {
+    "key": ""
+  },
+  "language": "eng",
+  "keywords": [
+    "osm_tracks",
+    "intersections",
+    "proximity",
+    "tracks",
+    "static maps",
+    "interactive",
+    "map",
+    "visualization",
+    "shiny"
+  ],
+  "people": [
+    {
+     "firstName": "Kishore",
+      "middleInitials": null,
+      "lastName": "Panaganti",
+      "email": "kishorpanaganti@gmail.com",
+      "roles": ["author",
+        "creator"
+        }
+        {
+      "firstName": "Santhosh",
+      "middleInitials": null,
+      "lastName": "Pavagada",
+      "roles": ["contributor"],
+      "orcid": "",
+       }
+      ],
+      "documentation": {
+    "url": "https://github.com/Pkishore92/Risky-Move"
+  }
+}
