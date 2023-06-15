@@ -16,23 +16,17 @@ GitHub repository: *https://github.com/Pkishore92/Risky-Move*
 ### Input data
 *MoveStack in Movebank format*
 
-*Example*: MoveStack in Movebank format
-
 ### Output data
 *Tables, static map plots, interactive map plots, shiny visualization app*
 
-*Example:* MoveStack in Movebank format
-
 ### Artefacts
-*’extracted_data.csv’: CSV-file containing all the variables computed, ‘static_map.png’: a map displaying intersection and plots of all the locations*
-
+*’extracted_data.csv’: CSV file containing all the variables computed, ‘static_map.png’: a map displaying intersection and plots of all the locations*
 
 ### Settings
 `Store settings`: click to store the current settings of the app for future workflow runs
 
 ### Most common errors
 *’ shiny visualization force closes’, ‘tabulation object error in shiny’*
-
 
 ### Null or error handling
 *shiny visualization force closes: When the shiny app is running, the window force closes if there are any naming errors which call variables from the data frame, so keep a check on the variable names. tabulation object error in shiny: overlaying of objects on the map has a reactive error in shiny which interrupts the table formation, so prevent overlaying and reading data*
