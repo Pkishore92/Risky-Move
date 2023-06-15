@@ -1,7 +1,7 @@
 # Risky-Move
 An app to understand the movement of animals around linear infrastructures such as roads, and rails which hinders smooth movement and puts animals in vulnerable situations, which have led to unfortunate deaths and collisions.  
 
-# Name of App *Risky Move*
+# Name of App- *Risky Move*
 
 MoveApps
 
